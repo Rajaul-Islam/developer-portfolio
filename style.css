@@ -45,8 +45,16 @@ h1{
     padding-right: 20px;
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
-    
-
+}
+#baby-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1; 
+}
+#full-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgba(207, 68, 13, 0.493), rgba(255, 81, 0, 0.171));
+    border-image-slice: 1; 
 }
 h2{
     font-size: 40px;
@@ -56,4 +64,7 @@ h2{
     background-repeat: no-repeat;
     background-position: left;
 
+}
+footer{
+    text-align: center;
 }
